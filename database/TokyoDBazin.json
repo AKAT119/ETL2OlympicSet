@@ -1,0 +1,25 @@
+{
+	"name": "TokyoDBazin",
+	"properties": {
+		"Name": "TokyoDBazin",
+		"EntityType": "DATABASE",
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"Properties": {
+			"IsSyMSCDMDatabase": true
+		},
+		"Source": {
+			"Provider": "ADLS",
+			"Location": "abfss://tokyo-olympic-data@tokyoolympicaazi.dfs.core.windows.net/TokyoDBazin",
+			"Properties": {
+				"FormatType": "csv",
+				"LinkedServiceName": "tokyo-olympic-as-azin-WorkspaceDefaultStorage"
+			}
+		},
+		"PublishStatus": "PUBLISHED",
+		"ObjectVersion": 4,
+		"ObjectId": "389522cd-3bb5-448a-b2e2-dc2030ade76d"
+	},
+	"type": "DATABASE"
+}
